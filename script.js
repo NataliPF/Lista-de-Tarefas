@@ -13,6 +13,8 @@ function adicionarTarefa() {
             </li>
         `
     }
+    inputTarefa.value = "";
+    
 }
 
 function marcarConcluida(botaoConcluir){
@@ -28,7 +30,7 @@ function marcarConcluida(botaoConcluir){
         //Remove os botões da tarefa concluída
         const botoes = tarefa.querySelectorAll("button");
         botoes.Remover.parentNode.remove();
-         
+
     }
 }
 
